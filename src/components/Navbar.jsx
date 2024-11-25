@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -72,7 +73,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/logo/logo.png" alt="Logo" className="h-10 w-auto" />
+          <img src="/public/logo/logo.png" alt="Logo" className="h-10 w-auto" />
         </div>
 
         {/* Desktop Menu */}
@@ -123,13 +124,13 @@ const Navbar = () => {
           </div>
 
           <Link
-            to="/travel-tips"
+            to="/Traveltips"
             className="text-black hover:text-red-500 transition-all"
           >
             Travel Tips
           </Link>
           <Link
-            to="/foods"
+            to="/Food"
             className="text-black hover:text-red-500 transition-all"
           >
             Foods

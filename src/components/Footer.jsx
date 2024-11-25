@@ -28,22 +28,22 @@ const Footer = () => {
           <ul className="flex space-x-4">
             <li>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <i className="fab fa-facebook-f"></i> Facebook
+                Facebook
               </a>
             </li>
             <li>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <i className="fab fa-twitter"></i> Twitter
+                Twitter
               </a>
             </li>
             <li>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <i className="fab fa-instagram"></i> Instagram
+                Instagram
               </a>
             </li>
             <li>
               <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <i className="fab fa-pinterest"></i> Pinterest
+                Pinterest
               </a>
             </li>
           </ul>

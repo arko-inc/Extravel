@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="relative text-center text-white">
   <h1 className="text-5xl font-bold font-against mb-4 animate-pulse md:text-xl">
-    Welcome to <span className="animate-inflate-deflate ">MisterCompass</span>
+    Welcome to <span className="animate-inflate-deflate ">MisterCompass   </span>
   </h1>
   <p className="md:text-lg mb-6 font-against animate-pulse">
     Explore the world’s most beautiful destinations with us.
